@@ -1,0 +1,54 @@
+body{
+       height: 800px;
+  background-image: url("https://froybalam.wordpress.com/wp-content/uploads/2014/01/tlacuache-9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+    margin:0;
+    padding:0;
+    font-family:Montserrat;
+    font-size: x-large
+}
+
+
+header,nav,section,aside,main,footer {
+padding:10px;        
+}
+
+
+
+.headers{
+    background-color: black;
+    color: black;
+    display: flex;
+}
+
+
+.hrd_uno {
+    background-color: black;
+    flex:20%;    
+    text-align: center;
+}
+
+.hrd_dos {
+    background-color: black;
+    color: black;
+    flex:60%;
+    text-align: center;
+}
+
+.hrd_tres {
+    background-color: black;
+    flex:20%;
+    text-align: center;
+}
+
+nav{
+    border: solid black;
+    border-radius: 10px;
+    margin: 10px;
+    background-color:black;
+    font-size:0.1px;
+    color: black;
+}

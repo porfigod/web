@@ -1,0 +1,109 @@
+body{
+      height: 800px;
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExazdocTF3eGNxemdjcTIybnNibjhjYjEyeW1nN3R5d25kazhuZ3EyMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d2Z3TajxxaP1OV44/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+    margin:0;
+    padding:0;
+    font-family:Montserrat;
+    font-size: x-large
+}
+
+
+header,nav,section,aside,main,footer {
+padding:10px;        
+}
+
+
+.headers{ 
+    display: flex;
+}
+
+
+.hrd_uno {
+    background-color: azure;
+    opacity: 0.7;
+    flex:20%;    
+    text-align: center;
+}
+
+.hrd_dos {
+color: #e4ffff;
+    flex:60%;
+    text-align: center;
+}
+
+.hrd_tres {
+    background-color: azure;
+    opacity: 0.7;
+    flex:20%;
+    text-align: center;
+}
+
+
+.header{
+    background-color: azure;
+}
+nav{
+    border: solid #131313;
+    border-radius: 10px;
+    margin: 10px;
+    background-color:#eeee;
+    font-size:medium;
+}
+
+footer{
+    color: white;
+    font-size:small;
+}
+
+.alimentacion {
+    opacity: 0.7;
+    background-color: #b4ffe6;
+    margin: solid 10px black;
+    text-align: 10px;
+    border: solid 5px;
+    border-radius: 200px 200px 200px 200px;
+    padding: 0 60px 0 60px;
+    font-family: Montserrat, Montserrat;
+    font-size: 27px;
+}
+
+.frutos {
+    height: 200;
+    width: 200;
+    border-radius: 100px;
+    border: solid 5px ;
+    text-align: center;
+}
+
+.frutos-derecha {
+    padding: 10px;
+    text-align: center;
+}
+
+.semillas {
+    border: solid 5px ;
+    border-radius: 100px
+}
+
+.c-alimentacion {
+    margin: 10px;
+    text-align: 10px;
+}
+
+
+nav{
+    opacity: 0.7;
+    background: gris
+
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display:inline;
+    padding:15px;
+}

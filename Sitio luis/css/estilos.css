@@ -1,0 +1,87 @@
+body{
+       height: 800px;
+  background-image: url("https://st1.uvnimg.com/dims4/default/407fa84/2147483647/thumbnail/480x270/quality/75/?url=https%3A%2F%2Fuvn-brightspot.s3.amazonaws.com%2Fassets%2Fvixes%2Ft%2Ftlacuache-albino.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+    margin:0;
+    padding:0;
+    font-family:Montserrat;
+    font-size: x-large
+}
+
+
+header,nav,section,aside,main,footer {
+padding:10px;        
+}
+
+
+
+.headers{
+    display: flex;
+}
+
+
+.hrd_uno {
+    flex:20%;    
+    text-align: center;
+}
+
+.hrd_dos {
+    color: #470707;
+    flex:60%;
+    text-align: center;
+}
+
+.hrd_tres {
+    flex:20%;
+    text-align: center;
+}
+
+nav{
+    border: solid #131313;
+    border-radius: 10px;
+    margin: 10px;
+    background-color:#eeee;
+    font-size:medium;
+}
+
+.contenedor-columnas {
+    display:flex;
+}
+
+.columna-izquierda{
+    border-radius: 24px;
+    margin: 55px;
+    margin-left:6%;
+    flex:30%; 
+}
+
+.columna-derecha{
+    color: #000000;
+    border-radius: 5px;
+    margin: 7px;
+    margin-left:2%;
+    flex:70%;
+}
+.columna-unica{
+margin:10px; 
+}
+
+footer{
+    font-size:small;
+}
+
+nav{
+    opacity: 0.7;
+    background: gris
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display:inline;
+    padding:15px;
+}
+
